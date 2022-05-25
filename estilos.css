@@ -1,0 +1,506 @@
+@import url(//db.onlinewebfonts.com/c/cc6289b84357b8d34b7b79656ced51e1?family=VersatileOutline-Bold);
+@font-face {font-family: "VersatileOutline-Bold"; src: url("//db.onlinewebfonts.com/t/cc6289b84357b8d34b7b79656ced51e1.eot"); 
+    src: url("//db.onlinewebfonts.com/t/cc6289b84357b8d34b7b79656ced51e1.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/cc6289b84357b8d34b7b79656ced51e1.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/cc6289b84357b8d34b7b79656ced51e1.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/cc6289b84357b8d34b7b79656ced51e1.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/cc6289b84357b8d34b7b79656ced51e1.svg#VersatileOutline-Bold") format("svg"); }
+@font-face {
+    font-family: 'hyundai_sans_headbold';
+    src: url('../font/hyundaisanshead-bold_2-webfont.eot');
+    src: url('../font/hyundaisanshead-bold_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/hyundaisanshead-bold_2-webfont.woff2') format('woff2'),
+         url('../font/hyundaisanshead-bold_2-webfont.woff') format('woff'),
+         url('../font/hyundaisanshead-bold_2-webfont.ttf') format('truetype'),
+         url('../font/hyundaisanshead-bold_2-webfont.svg#hyundai_sans_headbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'hyundai_sans_headlight';
+    src: url('../font/hyundaisanshead-light_2-webfont.eot');
+    src: url('../font/hyundaisanshead-light_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/hyundaisanshead-light_2-webfont.woff2') format('woff2'),
+         url('../font/hyundaisanshead-light_2-webfont.woff') format('woff'),
+         url('../font/hyundaisanshead-light_2-webfont.ttf') format('truetype'),
+         url('../font/hyundaisanshead-light_2-webfont.svg#hyundai_sans_headlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'hyundai_sans_headmedium';
+    src: url('../font/hyundaisanshead-medium-webfont.eot');
+    src: url('../font/hyundaisanshead-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/hyundaisanshead-medium-webfont.woff2') format('woff2'),
+         url('../font/hyundaisanshead-medium-webfont.woff') format('woff'),
+         url('../font/hyundaisanshead-medium-webfont.ttf') format('truetype'),
+         url('../font/hyundaisanshead-medium-webfont.svg#hyundai_sans_headmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'hyundai_sans_textbold';
+    src: url('../font/hyundaisanstext-bold-webfont.eot');
+    src: url('../font/hyundaisanstext-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/hyundaisanstext-bold-webfont.woff2') format('woff2'),
+         url('../font/hyundaisanstext-bold-webfont.woff') format('woff'),
+         url('../font/hyundaisanstext-bold-webfont.ttf') format('truetype'),
+         url('../font/hyundaisanstext-bold-webfont.svg#hyundai_sans_textbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'hyundai_sans_textmedium';
+    src: url('../font/hyundaisanstext-medium_2-webfont.eot');
+    src: url('../font/hyundaisanstext-medium_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/hyundaisanstext-medium_2-webfont.woff2') format('woff2'),
+         url('../font/hyundaisanstext-medium_2-webfont.woff') format('woff'),
+         url('../font/hyundaisanstext-medium_2-webfont.ttf') format('truetype'),
+         url('../font/hyundaisanstext-medium_2-webfont.svg#hyundai_sans_textmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'hyundai_sans_textregular';
+    src: url('../font/hyundaisanstext-regular-webfont.eot');
+    src: url('../font/hyundaisanstext-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/hyundaisanstext-regular-webfont.woff2') format('woff2'),
+         url('../font/hyundaisanstext-regular-webfont.woff') format('woff'),
+         url('../font/hyundaisanstext-regular-webfont.ttf') format('truetype'),
+         url('../font/hyundaisanstext-regular-webfont.svg#hyundai_sans_textregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'digital';
+    src: url('font/DS-DIGI.TTF') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+/* General */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.green-text{
+    color: #A5FF00;
+}
+.purple-text{
+    color: #6004C8;
+}
+
+/* Header */
+header{
+    display:flex;
+    min-height: 50px;
+    padding: 20px;
+    align-items: center;
+    position: absolute;
+}
+.logo{
+    display: flex;
+    background-image: linear-gradient(black, rgba(0, 0, 0, 0.835));
+}
+.logo img{
+    height: 30px;
+    z-index: 20;
+}
+
+
+/* H1 */
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 34%;
+}
+.title h1{
+    color: white;
+    font-family: 'hyundai_sans_textregular';
+    font-size: 80px;
+    text-align: center;
+}
+.title-nine{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 18%;
+    margin-left: 6%;
+}
+.title-nine h1{
+    color: white;
+    font-family: 'hyundai_sans_textregular';
+    font-size: 60px;
+    text-align: center;
+    margin-top:9%;
+    margin-bottom: -10%;
+}
+.title-r{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    margin-top: -120px;
+    margin-right: 10%;
+    margin-bottom: 30vh;
+}
+.title-r h1{
+    color: white;
+    font-family: 'hyundai_sans_textregular';
+    font-size: 60px;
+    text-align: center;
+    margin-top:10%;
+}
+.title-final{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-top:10%;
+    margin-left: 3%;
+}
+.title-final h1{
+    color: white;
+    font-family: 'hyundai_sans_textregular';
+    font-size: 60px;
+    text-align: center;
+}
+
+
+
+/* CTA */
+
+.cta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:28%;
+}
+button{
+    background-color: transparent;
+    padding: 18px 25px 18px 25px;
+    border-color: white;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+button a{
+    color: white;
+    text-decoration: none;
+    font-family: 'hyundai_sans_textbold';
+    font-size: 18px;
+}
+
+
+/* Temporizador */
+#cuenta-global{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.contador-nueve{
+    margin-top: -5%!important;
+}
+div#s1 {
+    display: none;
+}
+div#s2{
+    display: none;
+}
+div#s3{
+    display: none;
+}
+div#s4{
+    display: none;
+}
+div#s5{
+    display: none;
+}
+div#s6{
+    display: none;
+}
+div#s7{
+    display: none;
+}
+div#s8{
+    display: none;
+}
+div#s9{
+    display: none;
+}
+div#s10{
+    display: none;
+}
+.simply-section{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.simply-amount{
+    display: block;
+    font-size: 100px;
+    font-family: 'digital';
+    color: white;
+    background-color: transparent;
+}
+.simply-word{
+    font-size: 20px;
+    font-family: 'hyundai_sans_textregular';
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Secciones */
+section.primera{
+    background-image: url(/img/telon-bg.png);
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    z-index: 12;
+    box-shadow: rgba(0, 0, 0, 0.49) inset 0px 70px 10px 0;
+    background-size: cover;
+    background-position: center;}
+
+.segunda{
+    background-image: url(/img/telon-2.png);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-repeat: no-repeat;
+    z-index: 11;
+    box-shadow: rgba(0, 0, 0, 0.49) inset 0px 70px 10px 0;
+    background-size: cover;
+    background-position: center;
+}
+.tercera{
+    background-image: url(/img/telon-3.png);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-repeat: no-repeat;
+    z-index: 10; 
+    box-shadow: rgba(0, 0, 0, 0.49) inset 0px 70px 10px 0;
+    background-size: cover;
+    background-position: center;
+}
+.cuarta{
+    background-image: url(/img/telon-4.png);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-repeat: no-repeat;
+    z-index: 9; 
+    box-shadow: rgba(0, 0, 0, 0.49) inset 0px 70px 10px 0;
+    background-size: cover;
+    background-position: center;
+}
+.quinta{
+    background-image: url(/img/telon-5.png);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-repeat: no-repeat;
+    z-index: 8; 
+    box-shadow: rgba(0, 0, 0, 0.49) inset 0px 70px 10px 0;
+    background-size: cover;
+    background-position: center;
+}
+.sexta{
+    background-image: url(/img/telon-6.png);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-repeat: no-repeat;
+    z-index: 7; 
+    box-shadow: rgba(0, 0, 0, 0.49) inset 0px 70px 10px 0;
+    background-size: cover;
+    background-position: center;
+}
+.septima{
+    background-image: url(/img/telon-7.png);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-repeat: no-repeat;
+    z-index: 6; 
+    box-shadow: rgba(0, 0, 0, 0.49) inset 0px 70px 10px 0;
+    background-size: cover;
+    background-position: center;
+}
+.octava{
+    background-image: url(/img/telon-8.png);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-repeat: no-repeat;
+    z-index: 5; 
+    box-shadow: rgba(0, 0, 0, 0.49) inset 0px 70px 10px 0;
+    background-size: cover;
+    background-position: center;
+}
+.novena{
+    background-image: url(/img/telon-9.png);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-repeat: no-repeat;
+    z-index: 4; 
+    box-shadow: rgba(0, 0, 0, 0.49) inset 0px 70px 10px 0;
+    background-size: cover;
+    background-position: center;
+}
+.fondo-video{
+top: 0;
+left: 0;
+width: 100%;
+height: 100vh;
+overflow: hidden;
+position: absolute;
+}
+.fondo-video video{
+    min-width: 100%;
+    min-height: 100%;
+}
+.decima{
+    background-image: url(/img/telon-10.png);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-repeat: no-repeat;
+    z-index: 3; 
+    box-shadow: rgba(0, 0, 0, 0.49) inset 0px 70px 80px 20px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+
+.primera.oculta{
+    transform: translateY(100%);
+}
+.segunda.oculta{
+    transform: translateY(100%);
+}
+.tercera.oculta{
+    transform: translateY(100%);
+}
+.cuarta.oculta{
+    transform: translateY(100%);
+}
+.quinta.oculta{
+    transform: translateY(100%);
+}
+.sexta.oculta{
+    transform: translateY(100%);
+}
+.septima.oculta{
+    transform: translateY(100%);
+}
+.octava.oculta{
+    transform: translateY(100%);
+}
+.novena.oculta{
+    transform: translateY(100%);
+}
+.decima.oculta{
+    transform: translateY(100%);
+}
+
+/* Media Querys*/
+
+
+@media (max-width: 450px){
+    header{flex-direction: column!important;}
+    .title{display: flex!important; align-items: center!important;justify-content: center!important;margin-top: 62vh!important;padding: 30px;}
+    #cuenta-global{margin-top:10px;}
+    .title h1{font-size: 36px!important;text-align: center;}
+    .simply-section{width: 80px;height: 80px;display: flex;align-items: center;justify-content: center;}
+    .simply-amount{display: block;font-size: 60px;background-color: transparent;}
+    .simply-word{font-size: 15px;display: flex;align-items: center;justify-content: center; }
+    .title-nine{display: flex!important; align-items: center!important;justify-content: center!important;margin-top: 100px!important;padding: 30px;margin-left: 0!important;}
+    .title-nine h1{font-size: 36px!important;text-align: center;}
+    .title-r{display: flex!important; align-items: center!important;justify-content: center!important;margin-top: 80%!important;padding: 30px;margin-right: 0!important;margin-bottom: 0px!important;}
+    .title-r h1{font-size: 36px!important;text-align: center;}
+    .title-final h1{font-size: 28px!important;text-align: center;}
+    .title-final{ margin-top:200px;align-items: center;
+        justify-content: center;}
+    .cta{margin-top: 50vh;}
+    button a{font-size: 18px;}
+    .primera{background-image: url(/img/movil-1.png);background-size: cover;background-position: center;}
+    .segunda{background-image: url(/img/movil-2.png);background-size: cover;background-position: center;}
+    .tercera{background-image: url(/img/movil-3.png);background-size: cover;background-position: center;}
+    .cuarta{background-image: url(/img/movil-4.png);background-size: cover;background-position: center;}
+    .quinta{background-image: url(/img/movil-5.png);background-size: cover;background-position: center;}
+    .sexta{background-image: url(/img/movil-6.png);background-size: cover;background-position: center;}
+    .septima{background-image: url(/img/movil-7.png);background-size: cover;background-position: center;}
+    .octava{background-image: url(/img/movil-8.png);background-size: cover;background-position: center;}
+    .novena{background-image: url(/img/movil-9.png);background-size: cover;background-position: center;}
+    .decima{background-image: url(/img/movil-10.png);background-size: cover;background-position: center;}
+    }
+@media(min-width:451px) and (max-width:990px){
+    .title{display: flex!important; align-items: center!important;justify-content: center!important;margin-top: 60vh!important;padding: 30px;}
+    .title h1{font-size: 5vw!important;text-align: center;}
+    .simply-section{width: 100px;height: 80px;display: flex;align-items: center;justify-content: center;}
+    .simply-amount{display: block;font-size: 8vw;background-color: transparent;}
+    .simply-word{font-size: 3vw;display: flex;align-items: center;justify-content: center; }
+    #cuenta-global{margin-top: 0px!important;}
+    .title-nine{display: flex!important; align-items: center!important;justify-content: center!important;margin-top: 20px!important;padding: 30px;margin-left: 0!important;}
+    .title-nine h1{font-size: 36px!important;text-align: center;}
+    .title-r{display: flex!important; align-items: center!important;justify-content: center!important;margin-top: 70%!important;padding: 30px;margin-right: 0!important;margin-bottom: 0px!important;}
+    .title-r h1{font-size: 36px!important;text-align: center;}
+    .title-final h1{font-size: 36px!important;text-align: center;}
+    .title-final{ margin-top:200px;    align-items: center;
+        justify-content: center;}
+    .cta{margin-top:50vh;}
+    button a{font-size: 18px;}
+    .primera{background-size: cover;background-position: center;}
+    .segunda{background-size: cover;background-position: center;}
+    .tercera{background-size: cover;background-position: center;}
+    .cuarta{background-size: cover;background-position: center;}
+    .quinta{background-size: cover;background-position: center;}
+    .sexta{background-size: cover;background-position: center;}
+    .septima{background-size: cover;background-position: center;}
+    .octava{background-size: cover;background-position: center;}
+    .novena{background-image: url(/img/movil-9.png);background-size: cover;background-position: center;}
+    .decima{background-image: url(/img/movil-10.png);background-size:100% 100%; background-attachment: fixed;}
+}
+@media(min-width:725px) and (max-width:990px){
+    .title-final{ margin-top:100px;    align-items: center;
+        justify-content: center;}
+        .cta{margin-top:60vh;}
+
+}
+@media(min-width:990px) and (max-width:1450px){
+    .title{display: flex!important; align-items: center!important;justify-content: center!important;margin-top: 65vh!important;padding: 30px;}
+    .title h1{font-size: 46px!important;text-align: center;}
+    #cuenta-global{margin-top: 0px!important;}
+    .title-nine{display: flex;align-items: center;justify-content: left;margin-top: 12%; margin-left: 5%;} 
+    .title-nine h1{font-size: 6vh!important;text-align: center;}
+    .title-r{margin-top: -100px;margin-right: 5%;}
+    .title-r h1{font-size: 6vh;}
+    .title-final h1{font-size: 46px!important;text-align: center;}
+    .title-final{ margin-top:150px;}
+    .cta{margin-top:56vh;font-size: 18px;}    
+    .cta a{font-size: 18px!important;}
+    .primera{background-size: cover;background-position: center;}
+    .segunda{background-size: cover;background-position: center;}
+    .tercera{background-size: cover;background-position: center;}
+    .cuarta{background-size: cover;background-position: center;}
+    .quinta{background-size: cover;background-position: center;}
+    .sexta{background-size: cover;background-position: center;}
+    .septima{background-size: cover;background-position: center;}
+    .octava{background-size: cover;background-position: center;}
+    .novena{background-size: cover;background-position: center;}
+    .decima{background-size: cover;background-position: center;}
+}
