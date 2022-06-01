@@ -2,8 +2,8 @@ simplyCountdown('#cuenta-global', {
   year: 2022, // required
   month: 6, // required
   day: 10, // required
-  hours: 0, // Default is 0 [0-23] integer
-  minutes: 1, // Default is 0 [0-59] integer
+  hours: 19, // Default is 0 [0-23] integer
+  minutes: 0, // Default is 0 [0-59] integer
   seconds: 1, // Default is 0 [0-59] integer
   words: { //words displayed into the countdown
       days: { singular: 'día', plural: 'Días' },
@@ -29,7 +29,7 @@ simplyCountdown('#s1', {
   year: 2022, // required
   month: 6, // required
   day: 2, // required
-  hours: 0, // Default is 0 [0-23] integer
+  hours: 19, // Default is 0 [0-23] integer
   minutes: 0, // Default is 0 [0-59] integer
   seconds: 1, // Default is 0 [0-59] integer
   words: { //words displayed into the countdown
@@ -56,7 +56,7 @@ simplyCountdown('#s2', {
   year: 2022, // required
   month: 6, // required
   day: 3, // required
-  hours:0, // Default is 0 [0-23] integer
+  hours:19, // Default is 0 [0-23] integer
   minutes: 0, // Default is 0 [0-59] integer
   seconds: 1, // Default is 0 [0-59] integer
   words: { //words displayed into the countdown
@@ -83,7 +83,7 @@ simplyCountdown('#s3', {
   year: 2022, // required
   month: 6, // required
   day: 4, // required
-  hours:0, // Default is 0 [0-23] integer
+  hours:19, // Default is 0 [0-23] integer
   minutes: 0, // Default is 0 [0-59] integer
   seconds: 1, // Default is 0 [0-59] integer
   words: { //words displayed into the countdown
@@ -110,7 +110,7 @@ simplyCountdown('#s4', {
   year: 2022, // required
   month: 6, // required
   day: 5, // required
-  hours: 0, // Default is 0 [0-23] integer
+  hours: 19, // Default is 0 [0-23] integer
   minutes: 0, // Default is 0 [0-59] integer
   seconds: 1, // Default is 0 [0-59] integer
   words: { //words displayed into the countdown
@@ -137,7 +137,7 @@ simplyCountdown('#s5', {
   year: 2022, // required
   month: 6, // required
   day: 6, // required
-  hours: 0, // Default is 0 [0-23] integer
+  hours: 19, // Default is 0 [0-23] integer
   minutes: 0, // Default is 0 [0-59] integer
   seconds: 1, // Default is 0 [0-59] integer
   words: { //words displayed into the countdown
@@ -164,7 +164,7 @@ simplyCountdown('#s6', {
   year: 2022, // required
   month: 6, // required
   day: 7, // required
-  hours: 0, // Default is 0 [0-23] integer
+  hours: 19, // Default is 0 [0-23] integer
   minutes: 0, // Default is 0 [0-59] integer
   seconds: 1, // Default is 0 [0-59] integer
   words: { //words displayed into the countdown
@@ -191,7 +191,7 @@ simplyCountdown('#s7', {
   year: 2022, // required
   month: 6, // required
   day: 8, // required
-  hours: 0, // Default is 0 [0-23] integer
+  hours: 19, // Default is 0 [0-23] integer
   minutes: 0, // Default is 0 [0-59] integer
   seconds: 1, // Default is 0 [0-59] integer
   words: { //words displayed into the countdown
@@ -217,10 +217,10 @@ simplyCountdown('#s7', {
 simplyCountdown('#s8', {
   year: 2022, // required
   month: 6, // required
-  day: 9, // required
-  hours: 0, // Default is 0 [0-23] integer
-  minutes: 0, // Default is 0 [0-59] integer
-  seconds: 1, // Default is 0 [0-59] integer
+  day: 10, // required
+  hours: 18, // Default is 0 [0-23] integer
+  minutes: 59, // Default is 0 [0-59] integer
+  seconds: 59, // Default is 0 [0-59] integer
   words: { //words displayed into the countdown
       days: { singular: 'día', plural: 'Días' },
       hours: { singular: 'Hora', plural: 'Horas' },
@@ -245,7 +245,7 @@ simplyCountdown('#s9', {
   year: 2022, // required
   month: 6, // required
   day: 10, // required
-  hours: 0, // Default is 0 [0-23] integer
+  hours: 19, // Default is 0 [0-23] integer
   minutes:0, // Default is 0 [0-59] integer
   seconds: 1, // Default is 0 [0-59] integer
   words: { //words displayed into the countdown
